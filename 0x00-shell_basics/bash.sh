@@ -42,7 +42,7 @@ echo '#!/bin/bash
 file /tmp/iamafile' > 12-file_type
 
 echo '#!/bin/bash
-ln -s /bin/ls _ls_' > 13-symbolic_link
+ln -s /bin/ls __ls__' > 13-symbolic_link
 
 echo '#!/bin/bash
 cp -n *.html ..' > 14-copy_html
@@ -70,3 +70,4 @@ chmod +x 0-current_working_directory 1-listit school.mgc 2-bring_me_home 3-listf
 git add .
 git commit -m 'scripted'
 git push
+
